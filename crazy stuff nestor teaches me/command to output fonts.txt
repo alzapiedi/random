@@ -1,0 +1,1 @@
+grep "glyph-name" src/assets/fonts/practice.svg  | awk -F'"' '{print "$px-icon-"$4": \""$2"\""}' | sed "s/&#xe/\\\e/g" | sed "s/;\"$/\";/g" | sort

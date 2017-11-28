@@ -1,0 +1,31 @@
+Thought
+  - content
+  * taggable
+
+Tag
+  - title
+
+Tagging
+  - tag
+  - taggable_id
+
+Event
+  - status (interested, going)
+  - date
+  - title
+  - location
+  * taggable
+
+Memory
+  - date
+  - content
+  * taggable
+
+Idea
+  - content
+  * taggable
+
+Quote
+  - content
+  - author
+  * taggable
